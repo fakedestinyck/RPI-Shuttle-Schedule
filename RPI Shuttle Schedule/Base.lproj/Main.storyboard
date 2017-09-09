@@ -63,7 +63,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iJa-ET-R2p" customClass="SearchButtonView" customModule="RPI_Shuttle_Schedule" customModuleProvider="target">
+                            <view opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iJa-ET-R2p" customClass="SearchButtonView" customModule="RPI_Shuttle_Schedule" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                             </view>
                         </subviews>
@@ -83,6 +83,7 @@
                     <tabBarItem key="tabBarItem" title="Plan Trip" image="PlanATrip" selectedImage="PlanATripChosen" id="NEe-w2-rZ7"/>
                     <connections>
                         <outlet property="mainView" destination="azx-bd-3sP" id="qbw-FF-8tN"/>
+                        <outlet property="searchButtonUIView" destination="iJa-ET-R2p" id="42i-E9-SmS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zbX-ps-O8j" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -17,20 +17,13 @@ public class PlanATrip: NSObject {
     static var tOMORROW = NSMutableAttributedString(string: "TOMORROW")
     static let staticScale = min(UIScreen.main.bounds.width/375.0, UIScreen.main.bounds.height/630.0)
     
-    class func hitTest(tapLocation:CGPoint) {
-        if PlanATrip.rectangle2.contains(CGPoint(x: (tapLocation.x-staticScale*47)/staticScale, y: (tapLocation.y-staticScale*287)/staticScale)) {
-            // click "search"
-            print("In")
-        } else {
-            print(CGPoint(x: tapLocation.x-staticScale*47, y: tapLocation.y-staticScale*287))
-            print(CGPoint(x: (tapLocation.x-staticScale*47)/staticScale, y: (tapLocation.y-staticScale*287)/staticScale))
-        }
-    }
+    
     
     class func searchTap(sender: UITapGestureRecognizer) {
         print("true1")
         let tapLocation:CGPoint = sender.location(in: sender.view)
-        self.hitTest(tapLocation: CGPoint(x: tapLocation.x-staticScale*16, y: tapLocation.y-staticScale*71))
+        PlanATripViewController.hitTest(tapLocation: CGPoint(x: tapLocation.x-staticScale*16, y: tapLocation.y-staticScale*71))
+        
     }
     
     
@@ -1322,7 +1315,7 @@ public class PlanATrip: NSObject {
                     let baseOffset = context.convertToDeviceSpace(CGPoint(x: 263, y: 5)).applying(baseTransform)
                     let shadowOffset = CGSize(width: baseOffset.x - baseZero.x, height: baseOffset.y - baseZero.y)
                     let shadowBlur: CGFloat = 12 * min(baseOne.x - baseZero.x, baseOne.y - baseZero.y)
-                    context.setShadow(offset: shadowOffset, blur: shadowBlur, color: UIColor(hue: 0.714, saturation: 0.515, brightness: 0.945, alpha: 0.49).cgColor)
+                    context.setShadow(offset: shadowOffset, blur: shadowBlur, color: UIColor(hue: 0.714, saturation: 0.515, brightness: 0.945, alpha: 0.31).cgColor)
                 }
                 UIColor.black.setFill()
                 rectangle2.fill()

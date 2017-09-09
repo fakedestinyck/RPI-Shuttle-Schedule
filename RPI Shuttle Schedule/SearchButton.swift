@@ -18,7 +18,7 @@ class SearchButton: NSObject {
     
     /// Page 1
     
-    class func drawSearch1(frame targetFrame: CGRect = CGRect(x: 0, y: 0, width: 375, height: 630), resizing: ResizingBehavior = .aspectFit) {
+    class func drawSearch1(frame targetFrame: CGRect = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height), resizing: ResizingBehavior = .aspectFit) {
         /// General Declarations
         let context = UIGraphicsGetCurrentContext()!
         let baseTransform = context.userSpaceToDeviceSpaceTransform.inverted()
@@ -29,10 +29,6 @@ class SearchButton: NSObject {
         context.translateBy(x: resizedFrame.minX, y: resizedFrame.minY)
         context.scaleBy(x: resizedFrame.width / 375, y: resizedFrame.height / 630)
         let resizedShadowScale: CGFloat = min(resizedFrame.width / 375, resizedFrame.height / 630)
-        
-        /// Background Color
-        UIColor.clear.setFill()
-        context.fill(context.boundingBoxOfClipPath)
         
         /// Group 3
         context.saveGState()
@@ -64,19 +60,19 @@ class SearchButton: NSObject {
                     let baseOffset = context.convertToDeviceSpace(CGPoint(x: 263, y: 5)).applying(baseTransform)
                     let shadowOffset = CGSize(width: baseOffset.x - baseZero.x, height: baseOffset.y - baseZero.y)
                     let shadowBlur: CGFloat = 12 * min(baseOne.x - baseZero.x, baseOne.y - baseZero.y)
-                    context.setShadow(offset: shadowOffset, blur: shadowBlur, color: UIColor(hue: 0.714, saturation: 0.515, brightness: 0.945, alpha: 0.49).cgColor)
+                    context.setShadow(offset: shadowOffset, blur: shadowBlur, color: UIColor(hue: 0.943, saturation: 0.921, brightness: 0.949, alpha: 0.31).cgColor)
                 }
                 UIColor.black.setFill()
                 rectangle2.fill()
                 context.restoreGState()
-                UIColor(hue: 0.713, saturation: 0.515, brightness: 0.946, alpha: 0.4).setFill()
+                UIColor(hue: 0.943, saturation: 0.922, brightness: 0.95, alpha: 1).setFill()
                 rectangle2.fill()
                 context.restoreGState()
                 
                 /// Search
                 let search = NSMutableAttributedString(string: "Search")
                 search.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 25)!, range: NSRange(location: 0, length: search.length))
-                search.addAttribute(NSForegroundColorAttributeName, value: UIColor(hue: 0.59, saturation: 0.778, brightness: 1, alpha: 0.9), range: NSRange(location: 0, length: search.length))
+                search.addAttribute(NSForegroundColorAttributeName, value: UIColor(hue: 0.506, saturation: 0.604, brightness: 0.994, alpha: 0.9), range: NSRange(location: 0, length: search.length))
                 search.addAttribute(NSKernAttributeName, value: -0.43, range: NSRange(location: 0, length: search.length))
                 context.saveGState()
                 search.draw(at: CGPoint(x: 88, y: 11))
