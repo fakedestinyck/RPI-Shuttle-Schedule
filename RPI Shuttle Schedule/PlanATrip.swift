@@ -27,8 +27,6 @@ public class PlanATrip: NSObject {
     }
     
     
-    
-    
     //MARK: - Canvas Drawings
     
     /// Page 1
@@ -52,7 +50,7 @@ public class PlanATrip: NSObject {
         /// shutterstock_532100086
         do {
             context.saveGState()
-            context.translateBy(x: -33, y: 407)
+            context.translateBy(x: -33, y: 401)
             
             /// Group 5
             do {
@@ -61,15 +59,15 @@ public class PlanATrip: NSObject {
                 
                 /// Fill 1
                 let fill1 = UIBezierPath()
-                fill1.move(to: CGPoint(x: 0, y: 233.84))
-                fill1.addLine(to: CGPoint(x: 440.81, y: 233.84))
+                fill1.move(to: CGPoint(x: 0, y: 241.83))
+                fill1.addLine(to: CGPoint(x: 440.81, y: 241.83))
                 fill1.addLine(to: CGPoint(x: 440.81, y: 0))
                 fill1.addLine(to: CGPoint.zero)
-                fill1.addLine(to: CGPoint(x: 0, y: 233.84))
+                fill1.addLine(to: CGPoint(x: 0, y: 241.83))
                 fill1.close()
-                fill1.move(to: CGPoint(x: 0, y: 233.84))
+                fill1.move(to: CGPoint(x: 0, y: 241.83))
                 context.saveGState()
-                context.translateBy(x: 0.01, y: 0.15)
+                context.translateBy(x: 0.01, y: 0.16)
                 fill1.usesEvenOddFillRule = true
                 UIColor(hue: 0.111, saturation: 0.004, brightness: 1, alpha: 1).setFill()
                 fill1.fill()
@@ -77,13 +75,13 @@ public class PlanATrip: NSObject {
                 
                 /// Fill 3
                 let fill3 = UIBezierPath()
-                fill3.move(to: CGPoint(x: 24.14, y: 32.74))
-                fill3.addCurve(to: CGPoint(x: 17.05, y: 68.04), controlPoint1: CGPoint(x: 26.65, y: 51.52), controlPoint2: CGPoint(x: 23.47, y: 67.33))
-                fill3.addCurve(to: CGPoint(x: 0.86, y: 35.32), controlPoint1: CGPoint(x: 10.62, y: 68.75), controlPoint2: CGPoint(x: 3.37, y: 54.1))
-                fill3.addCurve(to: CGPoint(x: 7.95, y: 0.02), controlPoint1: CGPoint(x: -1.65, y: 16.54), controlPoint2: CGPoint(x: 1.52, y: 0.74))
-                fill3.addCurve(to: CGPoint(x: 24.14, y: 32.74), controlPoint1: CGPoint(x: 14.38, y: -0.69), controlPoint2: CGPoint(x: 21.62, y: 13.96))
+                fill3.move(to: CGPoint(x: 24.14, y: 33.86))
+                fill3.addCurve(to: CGPoint(x: 17.05, y: 70.37), controlPoint1: CGPoint(x: 26.65, y: 53.29), controlPoint2: CGPoint(x: 23.47, y: 69.63))
+                fill3.addCurve(to: CGPoint(x: 0.86, y: 36.53), controlPoint1: CGPoint(x: 10.62, y: 71.1), controlPoint2: CGPoint(x: 3.37, y: 55.95))
+                fill3.addCurve(to: CGPoint(x: 7.95, y: 0.03), controlPoint1: CGPoint(x: -1.65, y: 17.1), controlPoint2: CGPoint(x: 1.52, y: 0.76))
+                fill3.addCurve(to: CGPoint(x: 24.14, y: 33.86), controlPoint1: CGPoint(x: 14.38, y: -0.71), controlPoint2: CGPoint(x: 21.62, y: 14.44))
                 context.saveGState()
-                context.translateBy(x: 71.96, y: 92.67)
+                context.translateBy(x: 71.96, y: 95.84)
                 fill3.usesEvenOddFillRule = true
                 UIColor(hue: 0.414, saturation: 0.088, brightness: 0.927, alpha: 1).setFill()
                 fill3.fill()
@@ -91,17 +89,17 @@ public class PlanATrip: NSObject {
                 
                 /// Fill 4
                 let fill4 = UIBezierPath()
-                fill4.move(to: CGPoint(x: 259.17, y: 74.45))
-                fill4.addCurve(to: CGPoint(x: 209.17, y: 33.16), controlPoint1: CGPoint(x: 259.17, y: 74.45), controlPoint2: CGPoint(x: 253.88, y: 43.68))
-                fill4.addCurve(to: CGPoint(x: 105.4, y: 7.52), controlPoint1: CGPoint(x: 164.46, y: 22.65), controlPoint2: CGPoint(x: 114.38, y: 13.19))
-                fill4.addCurve(to: CGPoint(x: 22.23, y: 14.83), controlPoint1: CGPoint(x: 96.41, y: 1.86), controlPoint2: CGPoint(x: 49.68, y: -9.19))
-                fill4.addCurve(to: CGPoint(x: 2.65, y: 74.45), controlPoint1: CGPoint(x: -5.23, y: 38.85), controlPoint2: CGPoint(x: -0.97, y: 61.8))
-                fill4.addCurve(to: CGPoint(x: 7.7, y: 135.44), controlPoint1: CGPoint(x: 6.26, y: 87.09), controlPoint2: CGPoint(x: 15.86, y: 113.23))
-                fill4.addCurve(to: CGPoint(x: 109.38, y: 181.18), controlPoint1: CGPoint(x: -0.45, y: 157.64), controlPoint2: CGPoint(x: 11.88, y: 210.12))
-                fill4.addCurve(to: CGPoint(x: 203.54, y: 140.9), controlPoint1: CGPoint(x: 206.88, y: 152.23), controlPoint2: CGPoint(x: 170.65, y: 154.68))
-                fill4.addCurve(to: CGPoint(x: 259.17, y: 74.45), controlPoint1: CGPoint(x: 236.44, y: 127.13), controlPoint2: CGPoint(x: 271.4, y: 101.88))
+                fill4.move(to: CGPoint(x: 259.17, y: 76.99))
+                fill4.addCurve(to: CGPoint(x: 209.17, y: 34.3), controlPoint1: CGPoint(x: 259.17, y: 76.99), controlPoint2: CGPoint(x: 253.88, y: 45.17))
+                fill4.addCurve(to: CGPoint(x: 105.4, y: 7.78), controlPoint1: CGPoint(x: 164.46, y: 23.42), controlPoint2: CGPoint(x: 114.38, y: 13.64))
+                fill4.addCurve(to: CGPoint(x: 22.23, y: 15.33), controlPoint1: CGPoint(x: 96.41, y: 1.92), controlPoint2: CGPoint(x: 49.68, y: -9.51))
+                fill4.addCurve(to: CGPoint(x: 2.65, y: 76.99), controlPoint1: CGPoint(x: -5.23, y: 40.17), controlPoint2: CGPoint(x: -0.97, y: 63.91))
+                fill4.addCurve(to: CGPoint(x: 7.7, y: 140.07), controlPoint1: CGPoint(x: 6.26, y: 90.07), controlPoint2: CGPoint(x: 15.86, y: 117.1))
+                fill4.addCurve(to: CGPoint(x: 109.38, y: 187.37), controlPoint1: CGPoint(x: -0.45, y: 163.03), controlPoint2: CGPoint(x: 11.88, y: 217.31))
+                fill4.addCurve(to: CGPoint(x: 203.54, y: 145.72), controlPoint1: CGPoint(x: 206.88, y: 157.43), controlPoint2: CGPoint(x: 170.65, y: 159.97))
+                fill4.addCurve(to: CGPoint(x: 259.17, y: 76.99), controlPoint1: CGPoint(x: 236.44, y: 131.47), controlPoint2: CGPoint(x: 271.4, y: 105.36))
                 context.saveGState()
-                context.translateBy(x: 98.08, y: 26.74)
+                context.translateBy(x: 98.08, y: 27.66)
                 fill4.usesEvenOddFillRule = true
                 UIColor(hue: 0.414, saturation: 0.088, brightness: 0.927, alpha: 1).setFill()
                 fill4.fill()
@@ -118,7 +116,7 @@ public class PlanATrip: NSObject {
             fill6.addCurve(to: CGPoint(x: 41.25, y: 1.16), controlPoint1: CGPoint(x: 0.57, y: 0.42), controlPoint2: CGPoint(x: 19.03, y: -1.4))
             fill6.addCurve(to: CGPoint(x: 80.47, y: 14.5), controlPoint1: CGPoint(x: 63.47, y: 3.73), controlPoint2: CGPoint(x: 81.03, y: 9.7))
             context.saveGState()
-            context.translateBy(x: 216.1, y: 22.83)
+            context.translateBy(x: 216.1, y: 31.83)
             fill6.usesEvenOddFillRule = true
             UIColor(hue: 0.414, saturation: 0.088, brightness: 0.927, alpha: 1).setFill()
             fill6.fill()
@@ -138,7 +136,7 @@ public class PlanATrip: NSObject {
             fill7.addCurve(to: CGPoint(x: 63.61, y: 17.3), controlPoint1: CGPoint(x: 60.96, y: 17.46), controlPoint2: CGPoint(x: 62.26, y: 17.3))
             fill7.addCurve(to: CGPoint(x: 79.92, y: 32.96), controlPoint1: CGPoint(x: 72.61, y: 17.3), controlPoint2: CGPoint(x: 79.92, y: 24.31))
             context.saveGState()
-            context.translateBy(x: 87.51, y: 44.48)
+            context.translateBy(x: 87.51, y: 53.48)
             fill7.usesEvenOddFillRule = true
             UIColor(hue: 0.111, saturation: 0.004, brightness: 1, alpha: 1).setFill()
             fill7.fill()
@@ -177,7 +175,7 @@ public class PlanATrip: NSObject {
             fill8.close()
             fill8.move(to: CGPoint(x: 81.22, y: 36.36))
             context.saveGState()
-            context.translateBy(x: 86.19, y: 43.16)
+            context.translateBy(x: 86.19, y: 52.16)
             fill8.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill8.fill()
@@ -188,7 +186,7 @@ public class PlanATrip: NSObject {
             fill9.move(to: CGPoint(x: 53.37, y: 0))
             fill9.addLine(to: CGPoint.zero)
             context.saveGState()
-            context.translateBy(x: 136.07, y: 78.2)
+            context.translateBy(x: 136.07, y: 87.2)
             fill9.usesEvenOddFillRule = true
             UIColor(hue: 0.111, saturation: 0.004, brightness: 1, alpha: 1).setFill()
             fill9.fill()
@@ -204,7 +202,7 @@ public class PlanATrip: NSObject {
             fill10.addCurve(to: CGPoint(x: 56.02, y: 1.32), controlPoint1: CGPoint(x: 55.42, y: 0), controlPoint2: CGPoint(x: 56.02, y: 0.59))
             fill10.addCurve(to: CGPoint(x: 54.69, y: 2.65), controlPoint1: CGPoint(x: 56.02, y: 2.06), controlPoint2: CGPoint(x: 55.42, y: 2.65))
             context.saveGState()
-            context.translateBy(x: 134.74, y: 76.87)
+            context.translateBy(x: 134.74, y: 85.87)
             fill10.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill10.fill()
@@ -215,7 +213,7 @@ public class PlanATrip: NSObject {
             fill11.move(to: CGPoint.zero)
             fill11.addCurve(to: CGPoint(x: 1.2, y: 5.63), controlPoint1: CGPoint.zero, controlPoint2: CGPoint(x: 1.2, y: 4.87))
             context.saveGState()
-            context.translateBy(x: 146.64, y: 60.11)
+            context.translateBy(x: 146.64, y: 69.11)
             fill11.usesEvenOddFillRule = true
             UIColor(hue: 0.111, saturation: 0.004, brightness: 1, alpha: 1).setFill()
             fill11.fill()
@@ -231,7 +229,7 @@ public class PlanATrip: NSObject {
             fill12.addCurve(to: CGPoint(x: 3.86, y: 6.96), controlPoint1: CGPoint(x: 3.08, y: 2.89), controlPoint2: CGPoint(x: 3.86, y: 6.16))
             fill12.addCurve(to: CGPoint(x: 2.53, y: 8.28), controlPoint1: CGPoint(x: 3.86, y: 7.69), controlPoint2: CGPoint(x: 3.26, y: 8.28))
             context.saveGState()
-            context.translateBy(x: 145.32, y: 58.79)
+            context.translateBy(x: 145.32, y: 67.79)
             fill12.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill12.fill()
@@ -251,7 +249,7 @@ public class PlanATrip: NSObject {
             fill13.addCurve(to: CGPoint(x: 37.04, y: 10.54), controlPoint1: CGPoint(x: 35.5, y: 10.63), controlPoint2: CGPoint(x: 36.26, y: 10.54))
             fill13.addCurve(to: CGPoint(x: 46.53, y: 20.07), controlPoint1: CGPoint(x: 42.28, y: 10.54), controlPoint2: CGPoint(x: 46.53, y: 14.81))
             context.saveGState()
-            context.translateBy(x: 237.92, y: 35.86)
+            context.translateBy(x: 237.92, y: 44.86)
             fill13.usesEvenOddFillRule = true
             UIColor(hue: 0.111, saturation: 0.004, brightness: 1, alpha: 1).setFill()
             fill13.fill()
@@ -289,7 +287,7 @@ public class PlanATrip: NSObject {
             fill14.close()
             fill14.move(to: CGPoint(x: 47.85, y: 23.18))
             context.saveGState()
-            context.translateBy(x: 236.6, y: 34.53)
+            context.translateBy(x: 236.6, y: 43.53)
             fill14.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill14.fill()
@@ -307,7 +305,7 @@ public class PlanATrip: NSObject {
             fill43.addLine(to: CGPoint(x: 115.98, y: 0))
             fill43.addCurve(to: CGPoint(x: 118.13, y: 2.53), controlPoint1: CGPoint(x: 117.17, y: 0), controlPoint2: CGPoint(x: 118.13, y: 1.13))
             context.saveGState()
-            context.translateBy(x: 51.88, y: 135.22)
+            context.translateBy(x: 51.88, y: 144.22)
             fill43.usesEvenOddFillRule = true
             UIColor(hue: 0.078, saturation: 0.48, brightness: 0.705, alpha: 1).setFill()
             fill43.fill()
@@ -338,7 +336,7 @@ public class PlanATrip: NSObject {
             fill44.close()
             fill44.move(to: CGPoint(x: 117.31, y: 31.3))
             context.saveGState()
-            context.translateBy(x: 50.55, y: 133.89)
+            context.translateBy(x: 50.55, y: 142.89)
             fill44.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill44.fill()
@@ -354,7 +352,7 @@ public class PlanATrip: NSObject {
             fill45.addCurve(to: CGPoint(x: 120.61, y: 1.32), controlPoint1: CGPoint(x: 120.01, y: 0), controlPoint2: CGPoint(x: 120.61, y: 0.59))
             fill45.addCurve(to: CGPoint(x: 119.28, y: 2.65), controlPoint1: CGPoint(x: 120.61, y: 2.06), controlPoint2: CGPoint(x: 120.01, y: 2.65))
             context.saveGState()
-            context.translateBy(x: 50.73, y: 142.49)
+            context.translateBy(x: 50.73, y: 151.49)
             fill45.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill45.fill()
@@ -372,7 +370,7 @@ public class PlanATrip: NSObject {
             fill46.addCurve(to: CGPoint(x: 16.39, y: 2.15), controlPoint1: CGPoint(x: 15.43, y: 0), controlPoint2: CGPoint(x: 16.39, y: 0.96))
             fill46.addLine(to: CGPoint(x: 16.39, y: 3.59))
             context.saveGState()
-            context.translateBy(x: 64.2, y: 141.13)
+            context.translateBy(x: 64.2, y: 150.13)
             fill46.usesEvenOddFillRule = true
             UIColor(hue: 0.097, saturation: 0.355, brightness: 0.979, alpha: 1).setFill()
             fill46.fill()
@@ -403,7 +401,7 @@ public class PlanATrip: NSObject {
             fill47.close()
             fill47.move(to: CGPoint(x: 15.57, y: 8.38))
             context.saveGState()
-            context.translateBy(x: 62.88, y: 139.8)
+            context.translateBy(x: 62.88, y: 148.8)
             fill47.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill47.fill()
@@ -421,7 +419,7 @@ public class PlanATrip: NSObject {
             fill48.addCurve(to: CGPoint(x: 16.39, y: 2.15), controlPoint1: CGPoint(x: 15.43, y: 0), controlPoint2: CGPoint(x: 16.39, y: 0.96))
             fill48.addLine(to: CGPoint(x: 16.39, y: 3.59))
             context.saveGState()
-            context.translateBy(x: 142.32, y: 141.13)
+            context.translateBy(x: 142.32, y: 150.13)
             fill48.usesEvenOddFillRule = true
             UIColor(hue: 0.097, saturation: 0.355, brightness: 0.979, alpha: 1).setFill()
             fill48.fill()
@@ -452,7 +450,7 @@ public class PlanATrip: NSObject {
             fill49.close()
             fill49.move(to: CGPoint(x: 15.57, y: 8.38))
             context.saveGState()
-            context.translateBy(x: 141, y: 139.8)
+            context.translateBy(x: 141, y: 148.8)
             fill49.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill49.fill()
@@ -468,7 +466,7 @@ public class PlanATrip: NSObject {
             fill50.addLine(to: CGPoint(x: 27.05, y: 0))
             fill50.addLine(to: CGPoint.zero)
             context.saveGState()
-            context.translateBy(x: 96.92, y: 143.81)
+            context.translateBy(x: 96.92, y: 152.81)
             fill50.usesEvenOddFillRule = true
             UIColor(hue: 0.053, saturation: 0.578, brightness: 0.585, alpha: 1).setFill()
             fill50.fill()
@@ -497,7 +495,7 @@ public class PlanATrip: NSObject {
             fill51.close()
             fill51.move(to: CGPoint(x: 24.65, y: 15.63))
             context.saveGState()
-            context.translateBy(x: 95.6, y: 142.49)
+            context.translateBy(x: 95.6, y: 151.49)
             fill51.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill51.fill()
@@ -513,7 +511,7 @@ public class PlanATrip: NSObject {
             fill52.addLine(to: CGPoint.zero)
             fill52.addLine(to: CGPoint(x: 16.93, y: 0))
             context.saveGState()
-            context.translateBy(x: 101.97, y: 144.46)
+            context.translateBy(x: 101.97, y: 153.46)
             fill52.usesEvenOddFillRule = true
             UIColor(hue: 0.078, saturation: 0.48, brightness: 0.705, alpha: 1).setFill()
             fill52.fill()
@@ -540,7 +538,7 @@ public class PlanATrip: NSObject {
             fill53.close()
             fill53.move(to: CGPoint(x: 17.46, y: 10.79))
             context.saveGState()
-            context.translateBy(x: 100.65, y: 143.13)
+            context.translateBy(x: 100.65, y: 152.13)
             fill53.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill53.fill()
@@ -556,7 +554,7 @@ public class PlanATrip: NSObject {
             fill80.addCurve(to: CGPoint(x: 104.38, y: 1.32), controlPoint1: CGPoint(x: 103.79, y: 0), controlPoint2: CGPoint(x: 104.38, y: 0.59))
             fill80.addCurve(to: CGPoint(x: 103.06, y: 2.65), controlPoint1: CGPoint(x: 104.38, y: 2.06), controlPoint2: CGPoint(x: 103.79, y: 2.65))
             context.saveGState()
-            context.translateBy(x: 277.32, y: 93.68)
+            context.translateBy(x: 277.32, y: 102.68)
             fill80.usesEvenOddFillRule = true
             UIColor(hue: 0.108, saturation: 0.079, brightness: 0.997, alpha: 1).setFill()
             fill80.fill()
@@ -574,7 +572,7 @@ public class PlanATrip: NSObject {
             fill81.addCurve(to: CGPoint(x: 35.41, y: 4.88), controlPoint1: CGPoint(x: 33.23, y: 0), controlPoint2: CGPoint(x: 35.41, y: 2.18))
             fill81.addLine(to: CGPoint(x: 35.41, y: 30.51))
             context.saveGState()
-            context.translateBy(x: 312.21, y: 72.34)
+            context.translateBy(x: 312.21, y: 81.34)
             fill81.usesEvenOddFillRule = true
             UIColor(hue: 0.053, saturation: 0.578, brightness: 0.585, alpha: 1).setFill()
             fill81.fill()
@@ -605,7 +603,7 @@ public class PlanATrip: NSObject {
             fill82.close()
             fill82.move(to: CGPoint(x: 31.86, y: 38.04))
             context.saveGState()
-            context.translateBy(x: 310.89, y: 71.02)
+            context.translateBy(x: 310.89, y: 80.02)
             fill82.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill82.fill()
@@ -623,7 +621,7 @@ public class PlanATrip: NSObject {
             fill83.addCurve(to: CGPoint(x: 23.26, y: 1.1), controlPoint1: CGPoint(x: 22.77, y: 0), controlPoint2: CGPoint(x: 23.26, y: 0.49))
             fill83.addLine(to: CGPoint(x: 23.26, y: 22.15))
             context.saveGState()
-            context.translateBy(x: 318.28, y: 77.97)
+            context.translateBy(x: 318.28, y: 86.97)
             fill83.usesEvenOddFillRule = true
             UIColor(hue: 0.111, saturation: 0.004, brightness: 1, alpha: 1).setFill()
             fill83.fill()
@@ -650,7 +648,7 @@ public class PlanATrip: NSObject {
             fill84.close()
             fill84.move(to: CGPoint(x: 23.49, y: 25.9))
             context.saveGState()
-            context.translateBy(x: 316.95, y: 76.65)
+            context.translateBy(x: 316.95, y: 85.65)
             fill84.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill84.fill()
@@ -668,7 +666,7 @@ public class PlanATrip: NSObject {
             fill85.addCurve(to: CGPoint(x: 121.77, y: 6.31), controlPoint1: CGPoint(x: 118.94, y: 0), controlPoint2: CGPoint(x: 121.77, y: 2.82))
             fill85.addLine(to: CGPoint(x: 121.77, y: 70.54))
             context.saveGState()
-            context.translateBy(x: 268.26, y: 86.91)
+            context.translateBy(x: 268.26, y: 95.91)
             fill85.usesEvenOddFillRule = true
             UIColor(hue: 0.096, saturation: 0.242, brightness: 0.985, alpha: 1).setFill()
             fill85.fill()
@@ -699,7 +697,7 @@ public class PlanATrip: NSObject {
             fill86.close()
             fill86.move(to: CGPoint(x: 116.79, y: 79.49))
             context.saveGState()
-            context.translateBy(x: 266.93, y: 85.59)
+            context.translateBy(x: 266.93, y: 94.59)
             fill86.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill86.fill()
@@ -715,7 +713,7 @@ public class PlanATrip: NSObject {
             fill87.addLine(to: CGPoint.zero)
             fill87.addLine(to: CGPoint(x: 119.12, y: 0))
             context.saveGState()
-            context.translateBy(x: 269.58, y: 153.35)
+            context.translateBy(x: 269.58, y: 162.35)
             fill87.usesEvenOddFillRule = true
             UIColor(hue: 0.069, saturation: 0.292, brightness: 0.933, alpha: 1).setFill()
             fill87.fill()
@@ -733,7 +731,7 @@ public class PlanATrip: NSObject {
             fill88.addCurve(to: CGPoint(x: 14.14, y: 2.65), controlPoint1: CGPoint(x: 12.95, y: 0), controlPoint2: CGPoint(x: 14.14, y: 1.19))
             fill88.addLine(to: CGPoint(x: 14.14, y: 74.19))
             context.saveGState()
-            context.translateBy(x: 283.8, y: 86.69)
+            context.translateBy(x: 283.8, y: 95.69)
             fill88.usesEvenOddFillRule = true
             UIColor(hue: 0.08, saturation: 0.496, brightness: 0.767, alpha: 1).setFill()
             fill88.fill()
@@ -764,7 +762,7 @@ public class PlanATrip: NSObject {
             fill89.close()
             fill89.move(to: CGPoint(x: 12.81, y: 79.49))
             context.saveGState()
-            context.translateBy(x: 282.47, y: 85.37)
+            context.translateBy(x: 282.47, y: 94.37)
             fill89.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill89.fill()
@@ -782,7 +780,7 @@ public class PlanATrip: NSObject {
             fill90.addCurve(to: CGPoint(x: 14.14, y: 2.65), controlPoint1: CGPoint(x: 12.95, y: 0), controlPoint2: CGPoint(x: 14.14, y: 1.19))
             fill90.addLine(to: CGPoint(x: 14.14, y: 74.19))
             context.saveGState()
-            context.translateBy(x: 359.31, y: 86.69)
+            context.translateBy(x: 359.31, y: 95.69)
             fill90.usesEvenOddFillRule = true
             UIColor(hue: 0.08, saturation: 0.496, brightness: 0.767, alpha: 1).setFill()
             fill90.fill()
@@ -813,7 +811,7 @@ public class PlanATrip: NSObject {
             fill91.close()
             fill91.move(to: CGPoint(x: 12.81, y: 79.49))
             context.saveGState()
-            context.translateBy(x: 357.98, y: 85.37)
+            context.translateBy(x: 357.98, y: 94.37)
             fill91.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill91.fill()
@@ -827,7 +825,7 @@ public class PlanATrip: NSObject {
             fill92.addCurve(to: CGPoint(x: 2.01, y: 0), controlPoint1: CGPoint(x: 0, y: 0.9), controlPoint2: CGPoint(x: 0.9, y: 0))
             fill92.addCurve(to: CGPoint(x: 4.02, y: 2.01), controlPoint1: CGPoint(x: 3.12, y: 0), controlPoint2: CGPoint(x: 4.02, y: 0.9))
             context.saveGState()
-            context.translateBy(x: 288.82, y: 96.87)
+            context.translateBy(x: 288.82, y: 105.87)
             fill92.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill92.fill()
@@ -841,7 +839,7 @@ public class PlanATrip: NSObject {
             fill93.addCurve(to: CGPoint(x: 2.01, y: 0), controlPoint1: CGPoint(x: 0, y: 0.9), controlPoint2: CGPoint(x: 0.9, y: 0))
             fill93.addCurve(to: CGPoint(x: 4.02, y: 2.01), controlPoint1: CGPoint(x: 3.12, y: 0), controlPoint2: CGPoint(x: 4.02, y: 0.9))
             context.saveGState()
-            context.translateBy(x: 288.82, y: 110.1)
+            context.translateBy(x: 288.82, y: 119.1)
             fill93.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill93.fill()
@@ -855,7 +853,7 @@ public class PlanATrip: NSObject {
             fill94.addCurve(to: CGPoint(x: 2.01, y: 0), controlPoint1: CGPoint(x: 0, y: 0.9), controlPoint2: CGPoint(x: 0.9, y: 0))
             fill94.addCurve(to: CGPoint(x: 4.02, y: 2.01), controlPoint1: CGPoint(x: 3.12, y: 0), controlPoint2: CGPoint(x: 4.02, y: 0.9))
             context.saveGState()
-            context.translateBy(x: 288.82, y: 123.33)
+            context.translateBy(x: 288.82, y: 132.33)
             fill94.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill94.fill()
@@ -869,7 +867,7 @@ public class PlanATrip: NSObject {
             fill95.addCurve(to: CGPoint(x: 2.01, y: 0), controlPoint1: CGPoint(x: 0, y: 0.9), controlPoint2: CGPoint(x: 0.9, y: 0))
             fill95.addCurve(to: CGPoint(x: 4.02, y: 2.01), controlPoint1: CGPoint(x: 3.12, y: 0), controlPoint2: CGPoint(x: 4.02, y: 0.9))
             context.saveGState()
-            context.translateBy(x: 288.82, y: 136.55)
+            context.translateBy(x: 288.82, y: 145.55)
             fill95.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill95.fill()
@@ -883,7 +881,7 @@ public class PlanATrip: NSObject {
             fill96.addCurve(to: CGPoint(x: 2.01, y: 0), controlPoint1: CGPoint(x: 0, y: 0.9), controlPoint2: CGPoint(x: 0.9, y: 0))
             fill96.addCurve(to: CGPoint(x: 4.02, y: 2.01), controlPoint1: CGPoint(x: 3.12, y: 0), controlPoint2: CGPoint(x: 4.02, y: 0.9))
             context.saveGState()
-            context.translateBy(x: 288.82, y: 149.78)
+            context.translateBy(x: 288.82, y: 158.78)
             fill96.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill96.fill()
@@ -897,7 +895,7 @@ public class PlanATrip: NSObject {
             fill97.addCurve(to: CGPoint(x: 2.01, y: 0), controlPoint1: CGPoint(x: 0, y: 0.9), controlPoint2: CGPoint(x: 0.9, y: 0))
             fill97.addCurve(to: CGPoint(x: 4.02, y: 2.01), controlPoint1: CGPoint(x: 3.12, y: 0), controlPoint2: CGPoint(x: 4.02, y: 0.9))
             context.saveGState()
-            context.translateBy(x: 364.37, y: 96.87)
+            context.translateBy(x: 364.37, y: 105.87)
             fill97.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill97.fill()
@@ -911,7 +909,7 @@ public class PlanATrip: NSObject {
             fill98.addCurve(to: CGPoint(x: 2.01, y: 0), controlPoint1: CGPoint(x: 0, y: 0.9), controlPoint2: CGPoint(x: 0.9, y: 0))
             fill98.addCurve(to: CGPoint(x: 4.02, y: 2.01), controlPoint1: CGPoint(x: 3.12, y: 0), controlPoint2: CGPoint(x: 4.02, y: 0.9))
             context.saveGState()
-            context.translateBy(x: 364.37, y: 110.1)
+            context.translateBy(x: 364.37, y: 119.1)
             fill98.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill98.fill()
@@ -925,7 +923,7 @@ public class PlanATrip: NSObject {
             fill99.addCurve(to: CGPoint(x: 2.01, y: 0), controlPoint1: CGPoint(x: 0, y: 0.9), controlPoint2: CGPoint(x: 0.9, y: 0))
             fill99.addCurve(to: CGPoint(x: 4.02, y: 2.01), controlPoint1: CGPoint(x: 3.12, y: 0), controlPoint2: CGPoint(x: 4.02, y: 0.9))
             context.saveGState()
-            context.translateBy(x: 364.37, y: 123.33)
+            context.translateBy(x: 364.37, y: 132.33)
             fill99.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill99.fill()
@@ -939,7 +937,7 @@ public class PlanATrip: NSObject {
             fill100.addCurve(to: CGPoint(x: 2.01, y: 0), controlPoint1: CGPoint(x: 0, y: 0.9), controlPoint2: CGPoint(x: 0.9, y: 0))
             fill100.addCurve(to: CGPoint(x: 4.02, y: 2.01), controlPoint1: CGPoint(x: 3.12, y: 0), controlPoint2: CGPoint(x: 4.02, y: 0.9))
             context.saveGState()
-            context.translateBy(x: 364.37, y: 136.55)
+            context.translateBy(x: 364.37, y: 145.55)
             fill100.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill100.fill()
@@ -953,7 +951,7 @@ public class PlanATrip: NSObject {
             fill101.addCurve(to: CGPoint(x: 2.01, y: 0), controlPoint1: CGPoint(x: 0, y: 0.9), controlPoint2: CGPoint(x: 0.9, y: 0))
             fill101.addCurve(to: CGPoint(x: 4.02, y: 2.01), controlPoint1: CGPoint(x: 3.12, y: 0), controlPoint2: CGPoint(x: 4.02, y: 0.9))
             context.saveGState()
-            context.translateBy(x: 364.37, y: 149.78)
+            context.translateBy(x: 364.37, y: 158.78)
             fill101.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill101.fill()
@@ -964,7 +962,7 @@ public class PlanATrip: NSObject {
             fill102.move(to: CGPoint(x: 367.52, y: 0))
             fill102.addLine(to: CGPoint.zero)
             context.saveGState()
-            context.translateBy(x: 37.88, y: 164.12)
+            context.translateBy(x: 37.88, y: 173.12)
             fill102.usesEvenOddFillRule = true
             UIColor(hue: 0.078, saturation: 0.48, brightness: 0.705, alpha: 1).setFill()
             fill102.fill()
@@ -980,7 +978,7 @@ public class PlanATrip: NSObject {
             fill103.addCurve(to: CGPoint(x: 370.17, y: 1.32), controlPoint1: CGPoint(x: 369.58, y: 0), controlPoint2: CGPoint(x: 370.17, y: 0.59))
             fill103.addCurve(to: CGPoint(x: 368.85, y: 2.65), controlPoint1: CGPoint(x: 370.17, y: 2.06), controlPoint2: CGPoint(x: 369.58, y: 2.65))
             context.saveGState()
-            context.translateBy(x: 36.56, y: 162.79)
+            context.translateBy(x: 36.56, y: 171.79)
             fill103.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill103.fill()
@@ -998,7 +996,7 @@ public class PlanATrip: NSObject {
             fill104.addCurve(to: CGPoint(x: 33.5, y: 2.35), controlPoint1: CGPoint(x: 32.24, y: 0), controlPoint2: CGPoint(x: 33.5, y: 1.05))
             fill104.addLine(to: CGPoint(x: 28.83, y: 42.97))
             context.saveGState()
-            context.translateBy(x: 306.16, y: 117.77)
+            context.translateBy(x: 306.16, y: 126.77)
             fill104.usesEvenOddFillRule = true
             UIColor(hue: 0.111, saturation: 0.004, brightness: 1, alpha: 1).setFill()
             fill104.fill()
@@ -1033,7 +1031,7 @@ public class PlanATrip: NSObject {
             fill105.close()
             fill105.move(to: CGPoint(x: 27.35, y: 47.97))
             context.saveGState()
-            context.translateBy(x: 304.83, y: 116.45)
+            context.translateBy(x: 304.83, y: 125.45)
             fill105.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill105.fill()
@@ -1047,7 +1045,7 @@ public class PlanATrip: NSObject {
             fill106.addLine(to: CGPoint.zero)
             fill106.addLine(to: CGPoint(x: 35.52, y: 0))
             context.saveGState()
-            context.translateBy(x: 305.15, y: 128.68)
+            context.translateBy(x: 305.15, y: 137.68)
             fill106.usesEvenOddFillRule = true
             UIColor(hue: 0.458, saturation: 1, brightness: 0.645, alpha: 1).setFill()
             fill106.fill()
@@ -1076,7 +1074,7 @@ public class PlanATrip: NSObject {
             fill107.close()
             fill107.move(to: CGPoint(x: 34.03, y: 26.55))
             context.saveGState()
-            context.translateBy(x: 303.82, y: 127.35)
+            context.translateBy(x: 303.82, y: 136.35)
             fill107.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill107.fill()
@@ -1090,7 +1088,7 @@ public class PlanATrip: NSObject {
             fill108.addLine(to: CGPoint(x: 32.33, y: 0))
             fill108.addLine(to: CGPoint(x: 34.2, y: 6.88))
             context.saveGState()
-            context.translateBy(x: 305.69, y: 110.47)
+            context.translateBy(x: 305.69, y: 119.47)
             fill108.usesEvenOddFillRule = true
             UIColor(hue: 0.053, saturation: 0.447, brightness: 0.695, alpha: 1).setFill()
             fill108.fill()
@@ -1120,7 +1118,7 @@ public class PlanATrip: NSObject {
             fill109.close()
             fill109.move(to: CGPoint(x: 35.53, y: 9.53))
             context.saveGState()
-            context.translateBy(x: 304.36, y: 109.15)
+            context.translateBy(x: 304.36, y: 118.15)
             fill109.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill109.fill()
@@ -1134,7 +1132,7 @@ public class PlanATrip: NSObject {
             fill110.addCurve(to: CGPoint(x: 5.17, y: 0), controlPoint1: CGPoint(x: 0, y: 2.31), controlPoint2: CGPoint(x: 2.32, y: 0))
             fill110.addCurve(to: CGPoint(x: 10.34, y: 5.17), controlPoint1: CGPoint(x: 8.03, y: 0), controlPoint2: CGPoint(x: 10.34, y: 2.31))
             context.saveGState()
-            context.translateBy(x: 317.83, y: 135.2)
+            context.translateBy(x: 317.83, y: 144.2)
             fill110.usesEvenOddFillRule = true
             UIColor(hue: 0.111, saturation: 0.004, brightness: 1, alpha: 1).setFill()
             fill110.fill()
@@ -1157,7 +1155,7 @@ public class PlanATrip: NSObject {
             fill111.close()
             fill111.move(to: CGPoint(x: 6.5, y: 12.98))
             context.saveGState()
-            context.translateBy(x: 316.5, y: 133.88)
+            context.translateBy(x: 316.5, y: 142.88)
             fill111.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill111.fill()
@@ -1173,7 +1171,7 @@ public class PlanATrip: NSObject {
             fill112.close()
             fill112.move(to: CGPoint(x: 0, y: 4.76))
             context.saveGState()
-            context.translateBy(x: 303.94, y: 115.14)
+            context.translateBy(x: 303.94, y: 124.14)
             fill112.usesEvenOddFillRule = true
             UIColor(hue: 0.05, saturation: 0.328, brightness: 0.765, alpha: 1).setFill()
             fill112.fill()
@@ -1200,7 +1198,7 @@ public class PlanATrip: NSObject {
             fill113.close()
             fill113.move(to: CGPoint(x: 39.03, y: 7.41))
             context.saveGState()
-            context.translateBy(x: 302.61, y: 113.81)
+            context.translateBy(x: 302.61, y: 122.81)
             fill113.usesEvenOddFillRule = true
             UIColor(hue: 0.629, saturation: 0.6, brightness: 0.342, alpha: 1).setFill()
             fill113.fill()
@@ -1219,7 +1217,7 @@ public class PlanATrip: NSObject {
             context.translateBy(x: 16, y: 71)
             
             /// Combined Shape
-            let combinedShape = UIBezierPath(roundedRect: CGRect(x: 0, y: 0, width: 344, height: 368), cornerRadius: 9)
+            let combinedShape = UIBezierPath(roundedRect: CGRect(x: 0, y: 0, width: 344, height: 355), cornerRadius: 9)
             context.saveGState()
             UIColor.white.setFill()
             combinedShape.fill()
@@ -1228,7 +1226,7 @@ public class PlanATrip: NSObject {
             /// Group
             do {
                 context.saveGState()
-                context.translateBy(x: 11, y: 154)
+                context.translateBy(x: 11, y: 199)
                 
                 /// Line
                 let line = UIBezierPath()
@@ -1242,7 +1240,21 @@ public class PlanATrip: NSObject {
                 line.stroke()
                 context.restoreGState()
                 
-                /// may
+                /// Departure Time
+                let departureTime = NSMutableAttributedString(string: "Departure Time")
+                departureTime.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 14)!, range: NSRange(location: 0, length: departureTime.length))
+                departureTime.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.237, alpha: 1), range: NSRange(location: 0, length: departureTime.length))
+                departureTime.addAttribute(NSKernAttributeName, value: -0.31, range: NSRange(location: 0, length: departureTime.length))
+                context.saveGState()
+                context.setAlpha(0.7)
+                context.beginTransparencyLayer(auxiliaryInfo: nil)
+                do {
+                    departureTime.draw(at: CGPoint.zero)
+                }
+                context.endTransparencyLayer()
+                context.restoreGState()
+                
+                /// select
                 do {
                     context.saveGState()
                     context.translateBy(x: 0, y: 17)
@@ -1252,39 +1264,24 @@ public class PlanATrip: NSObject {
                     context.setAlpha(0.8)
                     context.beginTransparencyLayer(auxiliaryInfo: nil)
                     do {
-                        context.translateBy(x: 22, y: 1)
                         
-                        /// TOMORROW
-                        
-                        tOMORROW.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: tOMORROW.length))
-                        tOMORROW.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: tOMORROW.length))
-                        tOMORROW.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: tOMORROW.length))
+                        /// Time
+                        let time = NSMutableAttributedString(string: "Time")
+                        time.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: time.length))
+                        time.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: time.length))
+                        time.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: time.length))
                         context.saveGState()
-                        tOMORROW.draw(at: CGPoint(x: 0, y: 11))
+                        time.draw(at: CGPoint(x: 0, y: 11))
                         context.restoreGState()
                         
-                        /// MAY
-                        let mAY = NSMutableAttributedString(string: "MAY")
-                        mAY.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: mAY.length))
-                        mAY.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: mAY.length))
-                        mAY.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: mAY.length))
+                        /// Select
+                        let select = NSMutableAttributedString(string: "Select")
+                        select.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: select.length))
+                        select.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: select.length))
+                        select.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: select.length))
                         context.saveGState()
-                        mAY.draw(at: CGPoint.zero)
+                        select.draw(at: CGPoint.zero)
                         context.restoreGState()
-                    }
-                    context.endTransparencyLayer()
-                    context.restoreGState()
-                    
-                    /// 14
-                    let _14 = NSMutableAttributedString(string: "14")
-                    _14.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 20)!, range: NSRange(location: 0, length: _14.length))
-                    _14.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: _14.length))
-                    _14.addAttribute(NSKernAttributeName, value: -0.59, range: NSRange(location: 0, length: _14.length))
-                    context.saveGState()
-                    context.setAlpha(0.8)
-                    context.beginTransparencyLayer(auxiliaryInfo: nil)
-                    do {
-                        _14.draw(at: CGPoint.zero)
                     }
                     context.endTransparencyLayer()
                     context.restoreGState()
@@ -1298,9 +1295,9 @@ public class PlanATrip: NSObject {
             /// Group 10
             do {
                 context.saveGState()
-                context.translateBy(x: 47, y: 287)
+                context.translateBy(x: 47, y: 280)
                 
-                /// search Button
+                /// Search Button
                 rectangle2 = UIBezierPath(roundedRect: CGRect(x: 0, y: 0, width: 250, height: 51), cornerRadius: 28)
                 context.saveGState()
                 context.saveGState()
@@ -1315,7 +1312,7 @@ public class PlanATrip: NSObject {
                     let baseOffset = context.convertToDeviceSpace(CGPoint(x: 263, y: 5)).applying(baseTransform)
                     let shadowOffset = CGSize(width: baseOffset.x - baseZero.x, height: baseOffset.y - baseZero.y)
                     let shadowBlur: CGFloat = 12 * min(baseOne.x - baseZero.x, baseOne.y - baseZero.y)
-                    context.setShadow(offset: shadowOffset, blur: shadowBlur, color: UIColor(hue: 0.714, saturation: 0.515, brightness: 0.945, alpha: 0.31).cgColor)
+                    context.setShadow(offset: shadowOffset, blur: shadowBlur, color: UIColor(hue: 0.714, saturation: 0.515, brightness: 0.945, alpha: 0.28).cgColor)
                 }
                 UIColor.black.setFill()
                 rectangle2.fill()
@@ -1339,106 +1336,30 @@ public class PlanATrip: NSObject {
             /// Group
             do {
                 context.saveGState()
-                context.translateBy(x: 11, y: 211)
+                context.translateBy(x: 199, y: 199)
                 
                 /// Line
                 let line2 = UIBezierPath()
                 line2.move(to: CGPoint(x: 0, y: 1))
                 line2.addLine(to: CGPoint(x: 100, y: 1.36))
                 context.saveGState()
-                context.translateBy(x: 0, y: 42.5)
+                context.translateBy(x: 1, y: 43.5)
                 line2.lineCapStyle = .square
                 line2.lineWidth = 1
                 UIColor(white: 0.592, alpha: 1).setStroke()
                 line2.stroke()
                 context.restoreGState()
                 
-                /// Passengers
-                let passengers = NSMutableAttributedString(string: "Passengers")
-                passengers.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 14)!, range: NSRange(location: 0, length: passengers.length))
-                passengers.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.237, alpha: 1), range: NSRange(location: 0, length: passengers.length))
-                passengers.addAttribute(NSKernAttributeName, value: -0.31, range: NSRange(location: 0, length: passengers.length))
+                /// Arrival Time
+                let arrivalTime = NSMutableAttributedString(string: "Arrival Time\n")
+                arrivalTime.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 14)!, range: NSRange(location: 0, length: arrivalTime.length))
+                arrivalTime.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.237, alpha: 1), range: NSRange(location: 0, length: arrivalTime.length))
+                arrivalTime.addAttribute(NSKernAttributeName, value: -0.31, range: NSRange(location: 0, length: arrivalTime.length))
                 context.saveGState()
                 context.setAlpha(0.7)
                 context.beginTransparencyLayer(auxiliaryInfo: nil)
                 do {
-                    passengers.draw(at: CGPoint.zero)
-                }
-                context.endTransparencyLayer()
-                context.restoreGState()
-                
-                /// Group 4
-                context.saveGState()
-                context.setAlpha(0.93)
-                context.beginTransparencyLayer(auxiliaryInfo: nil)
-                do {
-                    context.translateBy(x: 0, y: 17)
-                    
-                    /// avatar
-                    // Warning: Image layers are not supported.
-                    
-                    /// Group 2
-                    do {
-                        context.saveGState()
-                        context.translateBy(x: 25, y: 0)
-                        
-                        /// ADULT
-                        let aDULT = NSMutableAttributedString(string: "ADULT")
-                        aDULT.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: aDULT.length))
-                        aDULT.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: aDULT.length))
-                        aDULT.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: aDULT.length))
-                        context.saveGState()
-                        aDULT.draw(at: CGPoint(x: 0, y: 11))
-                        context.restoreGState()
-                        
-                        /// 1
-                        let _1 = NSMutableAttributedString(string: "1")
-                        _1.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: _1.length))
-                        _1.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: _1.length))
-                        _1.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: _1.length))
-                        context.saveGState()
-                        _1.draw(at: CGPoint.zero)
-                        context.restoreGState()
-                        
-                        context.restoreGState()
-                    }
-                }
-                context.endTransparencyLayer()
-                context.restoreGState()
-                
-                context.restoreGState()
-            }
-            
-            /// left-arrow
-            // Warning: Image layers are not supported.
-            
-            /// Group
-            do {
-                context.saveGState()
-                context.translateBy(x: 199, y: 154)
-                
-                /// Line
-                let line3 = UIBezierPath()
-                line3.move(to: CGPoint(x: 0, y: 1))
-                line3.addLine(to: CGPoint(x: 100, y: 1.36))
-                context.saveGState()
-                context.translateBy(x: 1, y: 43.5)
-                line3.lineCapStyle = .square
-                line3.lineWidth = 1
-                UIColor(white: 0.592, alpha: 1).setStroke()
-                line3.stroke()
-                context.restoreGState()
-                
-                /// Return
-                let return2 = NSMutableAttributedString(string: "Return")
-                return2.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 14)!, range: NSRange(location: 0, length: return2.length))
-                return2.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.237, alpha: 1), range: NSRange(location: 0, length: return2.length))
-                return2.addAttribute(NSKernAttributeName, value: -0.31, range: NSRange(location: 0, length: return2.length))
-                context.saveGState()
-                context.setAlpha(0.7)
-                context.beginTransparencyLayer(auxiliaryInfo: nil)
-                do {
-                    return2.draw(at: CGPoint(x: 1, y: 0))
+                    arrivalTime.draw(at: CGPoint(x: 1, y: 0))
                 }
                 context.endTransparencyLayer()
                 context.restoreGState()
@@ -1447,21 +1368,39 @@ public class PlanATrip: NSObject {
                 do {
                     context.saveGState()
                     context.translateBy(x: 0, y: 17)
+                    
+                    // Empty.
+                    
+                    context.restoreGState()
+                }
+                
+                /// select
+                do {
+                    context.saveGState()
+                    context.translateBy(x: 1, y: 17)
                     
                     /// Group 2
                     context.saveGState()
                     context.setAlpha(0.8)
                     context.beginTransparencyLayer(auxiliaryInfo: nil)
                     do {
-                        context.translateBy(x: 1, y: 1)
                         
-                        /// Book Round Trip
-                        let bookRoundTrip = NSMutableAttributedString(string: "Book\nRound Trip")
-                        bookRoundTrip.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: bookRoundTrip.length))
-                        bookRoundTrip.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: bookRoundTrip.length))
-                        bookRoundTrip.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: bookRoundTrip.length))
+                        /// Time
+                        let time2 = NSMutableAttributedString(string: "Time")
+                        time2.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: time2.length))
+                        time2.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: time2.length))
+                        time2.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: time2.length))
                         context.saveGState()
-                        bookRoundTrip.draw(at: CGPoint.zero)
+                        time2.draw(at: CGPoint(x: 0, y: 11))
+                        context.restoreGState()
+                        
+                        /// Select
+                        let select3 = NSMutableAttributedString(string: "Select")
+                        select3.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: select3.length))
+                        select3.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: select3.length))
+                        select3.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: select3.length))
+                        context.saveGState()
+                        select3.draw(at: CGPoint.zero)
                         context.restoreGState()
                     }
                     context.endTransparencyLayer()
@@ -1476,91 +1415,18 @@ public class PlanATrip: NSObject {
             /// Group
             do {
                 context.saveGState()
-                context.translateBy(x: 200, y: 211)
+                context.translateBy(x: 11, y: 94)
                 
                 /// Line
-                let line4 = UIBezierPath()
-                line4.move(to: CGPoint(x: 0, y: 1))
-                line4.addLine(to: CGPoint(x: 100, y: 1.36))
-                context.saveGState()
-                context.translateBy(x: 0, y: 43.5)
-                line4.lineCapStyle = .square
-                line4.lineWidth = 1
-                UIColor(white: 0.592, alpha: 1).setStroke()
-                line4.stroke()
-                context.restoreGState()
-                
-                /// Travel Class
-                let travelClass = NSMutableAttributedString(string: "Travel Class")
-                travelClass.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 14)!, range: NSRange(location: 0, length: travelClass.length))
-                travelClass.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.237, alpha: 1), range: NSRange(location: 0, length: travelClass.length))
-                travelClass.addAttribute(NSKernAttributeName, value: -0.31, range: NSRange(location: 0, length: travelClass.length))
-                context.saveGState()
-                context.setAlpha(0.7)
-                context.beginTransparencyLayer(auxiliaryInfo: nil)
-                do {
-                    travelClass.draw(at: CGPoint.zero)
-                }
-                context.endTransparencyLayer()
-                context.restoreGState()
-                
-                /// Group 4
-                context.saveGState()
-                context.setAlpha(0.93)
-                context.beginTransparencyLayer(auxiliaryInfo: nil)
-                do {
-                    context.translateBy(x: 0, y: 18)
-                    
-                    /// beauty-salon-chair
-                    // Warning: Image layers are not supported.
-                    
-                    /// Group 2
-                    do {
-                        context.saveGState()
-                        context.translateBy(x: 25, y: 0)
-                        
-                        /// CLASS
-                        let cLASS = NSMutableAttributedString(string: "CLASS")
-                        cLASS.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: cLASS.length))
-                        cLASS.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: cLASS.length))
-                        cLASS.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: cLASS.length))
-                        context.saveGState()
-                        cLASS.draw(at: CGPoint(x: 0, y: 11))
-                        context.restoreGState()
-                        
-                        /// ECONOMY
-                        let eCONOMY = NSMutableAttributedString(string: "ECONOMY")
-                        eCONOMY.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: eCONOMY.length))
-                        eCONOMY.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: eCONOMY.length))
-                        eCONOMY.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: eCONOMY.length))
-                        context.saveGState()
-                        eCONOMY.draw(at: CGPoint.zero)
-                        context.restoreGState()
-                        
-                        context.restoreGState()
-                    }
-                }
-                context.endTransparencyLayer()
-                context.restoreGState()
-                
-                context.restoreGState()
-            }
-            
-            /// Group
-            do {
-                context.saveGState()
-                context.translateBy(x: 11, y: 83)
-                
-                /// Line
-                let line5 = UIBezierPath()
-                line5.move(to: CGPoint(x: 0, y: 1))
-                line5.addLine(to: CGPoint(x: 290, y: 1))
+                let line3 = UIBezierPath()
+                line3.move(to: CGPoint(x: 0, y: 1))
+                line3.addLine(to: CGPoint(x: 290, y: 1))
                 context.saveGState()
                 context.translateBy(x: 0.5, y: 57.5)
-                line5.lineCapStyle = .square
-                line5.lineWidth = 1
+                line3.lineCapStyle = .square
+                line3.lineWidth = 1
                 UIColor(white: 0.592, alpha: 1).setStroke()
-                line5.stroke()
+                line3.stroke()
                 context.restoreGState()
                 
                 /// To
@@ -1577,35 +1443,21 @@ public class PlanATrip: NSObject {
                 context.endTransparencyLayer()
                 context.restoreGState()
                 
-                /// PARIS
+                /// SELECT
                 do {
                     context.saveGState()
-                    context.translateBy(x: 0, y: 15)
+                    context.translateBy(x: 0, y: 25)
                     
-                    /// CDG - Charles - de G
-                    let cDGCharlesDeG = NSMutableAttributedString(string: "CDG - Charles - de Gaulle Airport")
-                    cDGCharlesDeG.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 14)!, range: NSRange(location: 0, length: cDGCharlesDeG.length))
-                    cDGCharlesDeG.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: cDGCharlesDeG.length))
-                    cDGCharlesDeG.addAttribute(NSKernAttributeName, value: -0.31, range: NSRange(location: 0, length: cDGCharlesDeG.length))
+                    /// Select Destination
+                    let selectDestination = NSMutableAttributedString(string: "Select Destination")
+                    selectDestination.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 20)!, range: NSRange(location: 0, length: selectDestination.length))
+                    selectDestination.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: selectDestination.length))
+                    selectDestination.addAttribute(NSKernAttributeName, value: -0.44, range: NSRange(location: 0, length: selectDestination.length))
                     context.saveGState()
                     context.setAlpha(0.8)
                     context.beginTransparencyLayer(auxiliaryInfo: nil)
                     do {
-                        cDGCharlesDeG.draw(at: CGPoint(x: 0, y: 23))
-                    }
-                    context.endTransparencyLayer()
-                    context.restoreGState()
-                    
-                    /// Paris
-                    let paris = NSMutableAttributedString(string: "Paris")
-                    paris.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 20)!, range: NSRange(location: 0, length: paris.length))
-                    paris.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: paris.length))
-                    paris.addAttribute(NSKernAttributeName, value: -0.44, range: NSRange(location: 0, length: paris.length))
-                    context.saveGState()
-                    context.setAlpha(0.8)
-                    context.beginTransparencyLayer(auxiliaryInfo: nil)
-                    do {
-                        paris.draw(at: CGPoint.zero)
+                        selectDestination.draw(at: CGPoint.zero)
                     }
                     context.endTransparencyLayer()
                     context.restoreGState()
@@ -1619,22 +1471,19 @@ public class PlanATrip: NSObject {
             /// Group
             do {
                 context.saveGState()
-                context.translateBy(x: 11, y: 11)
+                context.translateBy(x: 11, y: 12)
                 
                 /// Line
-                let line6 = UIBezierPath()
-                line6.move(to: CGPoint(x: 0, y: 1))
-                line6.addLine(to: CGPoint(x: 290, y: 1))
+                let line4 = UIBezierPath()
+                line4.move(to: CGPoint(x: 0, y: 1))
+                line4.addLine(to: CGPoint(x: 290, y: 1))
                 context.saveGState()
                 context.translateBy(x: 0.5, y: 57.5)
-                line6.lineCapStyle = .square
-                line6.lineWidth = 1
+                line4.lineCapStyle = .square
+                line4.lineWidth = 1
                 UIColor(white: 0.592, alpha: 1).setStroke()
-                line6.stroke()
+                line4.stroke()
                 context.restoreGState()
-                
-                /// exchange
-                // Warning: Image layers are not supported.
                 
                 /// From
                 let from = NSMutableAttributedString(string: "From")
@@ -1650,33 +1499,27 @@ public class PlanATrip: NSObject {
                 context.endTransparencyLayer()
                 context.restoreGState()
                 
-                /// BLR - Kempegowda Int
-                let bLRKempegowdaInt = NSMutableAttributedString(string: "BLR - Kempegowda International Airport")
-                bLRKempegowdaInt.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 14)!, range: NSRange(location: 0, length: bLRKempegowdaInt.length))
-                bLRKempegowdaInt.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: bLRKempegowdaInt.length))
-                bLRKempegowdaInt.addAttribute(NSKernAttributeName, value: -0.31, range: NSRange(location: 0, length: bLRKempegowdaInt.length))
-                context.saveGState()
-                context.setAlpha(0.8)
-                context.beginTransparencyLayer(auxiliaryInfo: nil)
+                /// SELECT
                 do {
-                    bLRKempegowdaInt.draw(at: CGPoint(x: 0, y: 38))
+                    context.saveGState()
+                    context.translateBy(x: 0, y: 25)
+                    
+                    /// Select Destination
+                    let selectDestination2 = NSMutableAttributedString(string: "Select Destination")
+                    selectDestination2.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 20)!, range: NSRange(location: 0, length: selectDestination2.length))
+                    selectDestination2.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: selectDestination2.length))
+                    selectDestination2.addAttribute(NSKernAttributeName, value: -0.44, range: NSRange(location: 0, length: selectDestination2.length))
+                    context.saveGState()
+                    context.setAlpha(0.8)
+                    context.beginTransparencyLayer(auxiliaryInfo: nil)
+                    do {
+                        selectDestination2.draw(at: CGPoint.zero)
+                    }
+                    context.endTransparencyLayer()
+                    context.restoreGState()
+                    
+                    context.restoreGState()
                 }
-                context.endTransparencyLayer()
-                context.restoreGState()
-                
-                /// Bangalore
-                let bangalore = NSMutableAttributedString(string: "Bangalore")
-                bangalore.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 20)!, range: NSRange(location: 0, length: bangalore.length))
-                bangalore.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: bangalore.length))
-                bangalore.addAttribute(NSKernAttributeName, value: -0.44, range: NSRange(location: 0, length: bangalore.length))
-                context.saveGState()
-                context.setAlpha(0.8)
-                context.beginTransparencyLayer(auxiliaryInfo: nil)
-                do {
-                    bangalore.draw(at: CGPoint(x: 0, y: 15))
-                }
-                context.endTransparencyLayer()
-                context.restoreGState()
                 
                 context.restoreGState()
             }
@@ -1691,7 +1534,7 @@ public class PlanATrip: NSObject {
             /// Flight Search
             let flightSearch = NSMutableAttributedString(string: "Flight Search")
             flightSearch.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 19)!, range: NSRange(location: 0, length: flightSearch.length))
-            flightSearch.addAttribute(NSForegroundColorAttributeName, value: UIColor(hue: 0.714, saturation: 0.515, brightness: 0.945, alpha: 1), range: NSRange(location: 0, length: flightSearch.length))
+            flightSearch.addAttribute(NSForegroundColorAttributeName, value: UIColor(hue: 1, saturation: 0.954, brightness: 0.988, alpha: 1), range: NSRange(location: 0, length: flightSearch.length))
             flightSearch.addAttribute(NSKernAttributeName, value: -0.13, range: NSRange(location: 0, length: flightSearch.length))
             context.saveGState()
             context.setAlpha(0.6)
@@ -1704,6 +1547,14 @@ public class PlanATrip: NSObject {
             
             context.restoreGState()
         }
+        /// OR
+        let oR = NSMutableAttributedString(string: "OR")
+        oR.addAttribute(NSFontAttributeName, value: UIFont(name: "Arial-BoldMT", size: 14)!, range: NSRange(location: 0, length: oR.length))
+        oR.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.237, alpha: 1), range: NSRange(location: 0, length: oR.length))
+        oR.addAttribute(NSKernAttributeName, value: -0.31, range: NSRange(location: 0, length: oR.length))
+        context.saveGState()
+        oR.draw(at: CGPoint(x: 161, y: 286))
+        context.restoreGState()
         
         context.restoreGState()
     }
@@ -1723,7 +1574,7 @@ public class PlanATrip: NSObject {
         var image: UIImage
         
         UIGraphicsBeginImageContextWithOptions(CGSize(width: 375, height: 630), false, 0)
-        PlanATrip.drawSearch1()
+        PlanATripViewController2.drawSearch1()
         image = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
         
@@ -1771,9 +1622,5 @@ public class PlanATrip: NSObject {
             return result
         }
     }
-
-    
-    
-    
     
 }
