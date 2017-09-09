@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6329FDA61F64545F0068F3EB /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329FDA51F64545F0068F3EB /* SearchButton.swift */; };
+		6329FDA81F64547F0068F3EB /* SearchButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329FDA71F64547F0068F3EB /* SearchButtonView.swift */; };
+		6329FDAA1F6455810068F3EB /* PlanATrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329FDA91F6455810068F3EB /* PlanATrip.swift */; };
 		6369DCCA1F609A9B009F712B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6369DCC91F609A9B009F712B /* AppDelegate.swift */; };
 		6369DCCC1F609A9B009F712B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6369DCCB1F609A9B009F712B /* ViewController.swift */; };
 		6369DCCF1F609A9B009F712B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6369DCCD1F609A9B009F712B /* Main.storyboard */; };
 		6369DCD11F609A9B009F712B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6369DCD01F609A9B009F712B /* Assets.xcassets */; };
-		6369DCD41F609A9B009F712B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6369DCD21F609A9B009F712B /* LaunchScreen.storyboard */; };
+		6369DCE21F610EB3009F712B /* east_weekdays.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6369DCE11F610EB3009F712B /* east_weekdays.plist */; };
+		63C12C441F62E6D7009A71E8 /* PlanATripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C12C431F62E6D7009A71E8 /* PlanATripView.swift */; };
+		63C12C461F62E790009A71E8 /* PlanATripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C12C451F62E790009A71E8 /* PlanATripViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6329FDA51F64545F0068F3EB /* SearchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchButton.swift; sourceTree = "<group>"; };
+		6329FDA71F64547F0068F3EB /* SearchButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchButtonView.swift; sourceTree = "<group>"; };
+		6329FDA91F6455810068F3EB /* PlanATrip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanATrip.swift; sourceTree = "<group>"; };
 		6369DCC61F609A9B009F712B /* RPI Shuttle Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPI Shuttle Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6369DCC91F609A9B009F712B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6369DCCB1F609A9B009F712B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6369DCCE1F609A9B009F712B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6369DCD01F609A9B009F712B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6369DCD31F609A9B009F712B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6369DCD51F609A9B009F712B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6369DCE11F610EB3009F712B /* east_weekdays.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = east_weekdays.plist; path = "RPI Shuttle Schedule/res/east_weekdays.plist"; sourceTree = "<group>"; };
+		63C12C431F62E6D7009A71E8 /* PlanATripView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanATripView.swift; sourceTree = "<group>"; };
+		63C12C451F62E790009A71E8 /* PlanATripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanATripViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 		6369DCBD1F609A9B009F712B = {
 			isa = PBXGroup;
 			children = (
+				6369DCE11F610EB3009F712B /* east_weekdays.plist */,
 				6369DCC81F609A9B009F712B /* RPI Shuttle Schedule */,
 				6369DCC71F609A9B009F712B /* Products */,
 			);
@@ -55,10 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				6369DCC91F609A9B009F712B /* AppDelegate.swift */,
+				6329FDA51F64545F0068F3EB /* SearchButton.swift */,
+				6329FDA71F64547F0068F3EB /* SearchButtonView.swift */,
+				63C12C431F62E6D7009A71E8 /* PlanATripView.swift */,
+				63C12C451F62E790009A71E8 /* PlanATripViewController.swift */,
+				6329FDA91F6455810068F3EB /* PlanATrip.swift */,
 				6369DCCB1F609A9B009F712B /* ViewController.swift */,
 				6369DCCD1F609A9B009F712B /* Main.storyboard */,
 				6369DCD01F609A9B009F712B /* Assets.xcassets */,
-				6369DCD21F609A9B009F712B /* LaunchScreen.storyboard */,
 				6369DCD51F609A9B009F712B /* Info.plist */,
 			);
 			path = "RPI Shuttle Schedule";
@@ -123,8 +138,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6369DCD41F609A9B009F712B /* LaunchScreen.storyboard in Resources */,
 				6369DCD11F609A9B009F712B /* Assets.xcassets in Resources */,
+				6369DCE21F610EB3009F712B /* east_weekdays.plist in Resources */,
 				6369DCCF1F609A9B009F712B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C12C441F62E6D7009A71E8 /* PlanATripView.swift in Sources */,
 				6369DCCC1F609A9B009F712B /* ViewController.swift in Sources */,
+				6329FDAA1F6455810068F3EB /* PlanATrip.swift in Sources */,
+				63C12C461F62E790009A71E8 /* PlanATripViewController.swift in Sources */,
 				6369DCCA1F609A9B009F712B /* AppDelegate.swift in Sources */,
+				6329FDA61F64545F0068F3EB /* SearchButton.swift in Sources */,
+				6329FDA81F64547F0068F3EB /* SearchButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,14 +170,6 @@
 				6369DCCE1F609A9B009F712B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6369DCD21F609A9B009F712B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6369DCD31F609A9B009F712B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -204,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -262,8 +274,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3CMCS2KX8Z;
 				INFOPLIST_FILE = "RPI Shuttle Schedule/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.xiaogongju.RPI-Shuttle-Schedule";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,8 +289,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3CMCS2KX8Z;
 				INFOPLIST_FILE = "RPI Shuttle Schedule/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.xiaogongju.RPI-Shuttle-Schedule";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,6 +319,7 @@
 				6369DCDA1F609A9B009F712B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
