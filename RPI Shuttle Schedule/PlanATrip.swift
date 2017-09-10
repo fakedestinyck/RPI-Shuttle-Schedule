@@ -1254,40 +1254,40 @@ public class PlanATrip: NSObject {
                 context.endTransparencyLayer()
                 context.restoreGState()
                 
-                /// select
-                do {
-                    context.saveGState()
-                    context.translateBy(x: 0, y: 17)
-                    
-                    /// Group 2
-                    context.saveGState()
-                    context.setAlpha(0.8)
-                    context.beginTransparencyLayer(auxiliaryInfo: nil)
-                    do {
-                        
-                        /// Time
-                        let time = NSMutableAttributedString(string: "Time")
-                        time.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: time.length))
-                        time.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: time.length))
-                        time.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: time.length))
-                        context.saveGState()
-                        time.draw(at: CGPoint(x: 0, y: 11))
-                        context.restoreGState()
-                        
-                        /// Select
-                        let select = NSMutableAttributedString(string: "Select")
-                        select.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: select.length))
-                        select.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: select.length))
-                        select.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: select.length))
-                        context.saveGState()
-                        select.draw(at: CGPoint.zero)
-                        context.restoreGState()
-                    }
-                    context.endTransparencyLayer()
-                    context.restoreGState()
-                    
-                    context.restoreGState()
-                }
+//                /// select
+//                do {
+//                    context.saveGState()
+//                    context.translateBy(x: 0, y: 17)
+//                    
+//                    /// Group 2
+//                    context.saveGState()
+//                    context.setAlpha(0.8)
+//                    context.beginTransparencyLayer(auxiliaryInfo: nil)
+//                    do {
+//                        
+//                        /// Time
+//                        let time = NSMutableAttributedString(string: "Time")
+//                        time.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: time.length))
+//                        time.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: time.length))
+//                        time.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: time.length))
+//                        context.saveGState()
+//                        time.draw(at: CGPoint(x: 0, y: 11))
+//                        context.restoreGState()
+//                        
+//                        /// Select
+//                        let select = NSMutableAttributedString(string: "Select")
+//                        select.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: select.length))
+//                        select.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: select.length))
+//                        select.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: select.length))
+//                        context.saveGState()
+//                        select.draw(at: CGPoint.zero)
+//                        context.restoreGState()
+//                    }
+//                    context.endTransparencyLayer()
+//                    context.restoreGState()
+//                    
+//                    context.restoreGState()
+//                }
                 
                 context.restoreGState()
             }
@@ -1374,40 +1374,40 @@ public class PlanATrip: NSObject {
                     context.restoreGState()
                 }
                 
-                /// select
-                do {
-                    context.saveGState()
-                    context.translateBy(x: 1, y: 17)
-                    
-                    /// Group 2
-                    context.saveGState()
-                    context.setAlpha(0.8)
-                    context.beginTransparencyLayer(auxiliaryInfo: nil)
-                    do {
-                        
-                        /// Time
-                        let time2 = NSMutableAttributedString(string: "Time")
-                        time2.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: time2.length))
-                        time2.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: time2.length))
-                        time2.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: time2.length))
-                        context.saveGState()
-                        time2.draw(at: CGPoint(x: 0, y: 11))
-                        context.restoreGState()
-                        
-                        /// Select
-                        let select3 = NSMutableAttributedString(string: "Select")
-                        select3.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: select3.length))
-                        select3.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: select3.length))
-                        select3.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: select3.length))
-                        context.saveGState()
-                        select3.draw(at: CGPoint.zero)
-                        context.restoreGState()
-                    }
-                    context.endTransparencyLayer()
-                    context.restoreGState()
-                    
-                    context.restoreGState()
-                }
+//                /// select
+//                do {
+//                    context.saveGState()
+//                    context.translateBy(x: 1, y: 17)
+//                    
+//                    /// Group 2
+//                    context.saveGState()
+//                    context.setAlpha(0.8)
+//                    context.beginTransparencyLayer(auxiliaryInfo: nil)
+//                    do {
+//                        
+//                        /// Time
+//                        let time2 = NSMutableAttributedString(string: "Time")
+//                        time2.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: time2.length))
+//                        time2.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: time2.length))
+//                        time2.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: time2.length))
+//                        context.saveGState()
+//                        time2.draw(at: CGPoint(x: 0, y: 11))
+//                        context.restoreGState()
+//                        
+//                        /// Select
+//                        let select3 = NSMutableAttributedString(string: "Select")
+//                        select3.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 10)!, range: NSRange(location: 0, length: select3.length))
+//                        select3.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: select3.length))
+//                        select3.addAttribute(NSKernAttributeName, value: -0.22, range: NSRange(location: 0, length: select3.length))
+//                        context.saveGState()
+//                        select3.draw(at: CGPoint.zero)
+//                        context.restoreGState()
+//                    }
+//                    context.endTransparencyLayer()
+//                    context.restoreGState()
+//                    
+//                    context.restoreGState()
+//                }
                 
                 context.restoreGState()
             }
@@ -1443,27 +1443,27 @@ public class PlanATrip: NSObject {
                 context.endTransparencyLayer()
                 context.restoreGState()
                 
-                /// SELECT
-                do {
-                    context.saveGState()
-                    context.translateBy(x: 0, y: 25)
-                    
-                    /// Select Destination
-                    let selectDestination = NSMutableAttributedString(string: "Select Destination")
-                    selectDestination.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 20)!, range: NSRange(location: 0, length: selectDestination.length))
-                    selectDestination.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: selectDestination.length))
-                    selectDestination.addAttribute(NSKernAttributeName, value: -0.44, range: NSRange(location: 0, length: selectDestination.length))
-                    context.saveGState()
-                    context.setAlpha(0.8)
-                    context.beginTransparencyLayer(auxiliaryInfo: nil)
-                    do {
-                        selectDestination.draw(at: CGPoint.zero)
-                    }
-                    context.endTransparencyLayer()
-                    context.restoreGState()
-                    
-                    context.restoreGState()
-                }
+//                /// SELECT
+//                do {
+//                    context.saveGState()
+//                    context.translateBy(x: 0, y: 25)
+//                    
+//                    /// Select Destination
+//                    let selectDestination = NSMutableAttributedString(string: "Select Destination")
+//                    selectDestination.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 20)!, range: NSRange(location: 0, length: selectDestination.length))
+//                    selectDestination.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: selectDestination.length))
+//                    selectDestination.addAttribute(NSKernAttributeName, value: -0.44, range: NSRange(location: 0, length: selectDestination.length))
+//                    context.saveGState()
+//                    context.setAlpha(0.8)
+//                    context.beginTransparencyLayer(auxiliaryInfo: nil)
+//                    do {
+//                        selectDestination.draw(at: CGPoint.zero)
+//                    }
+//                    context.endTransparencyLayer()
+//                    context.restoreGState()
+//                    
+//                    context.restoreGState()
+//                }
                 
                 context.restoreGState()
             }
@@ -1499,27 +1499,27 @@ public class PlanATrip: NSObject {
                 context.endTransparencyLayer()
                 context.restoreGState()
                 
-                /// SELECT
-                do {
-                    context.saveGState()
-                    context.translateBy(x: 0, y: 25)
-                    
-                    /// Select Destination
-                    let selectDestination2 = NSMutableAttributedString(string: "Select Destination")
-                    selectDestination2.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 20)!, range: NSRange(location: 0, length: selectDestination2.length))
-                    selectDestination2.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: selectDestination2.length))
-                    selectDestination2.addAttribute(NSKernAttributeName, value: -0.44, range: NSRange(location: 0, length: selectDestination2.length))
-                    context.saveGState()
-                    context.setAlpha(0.8)
-                    context.beginTransparencyLayer(auxiliaryInfo: nil)
-                    do {
-                        selectDestination2.draw(at: CGPoint.zero)
-                    }
-                    context.endTransparencyLayer()
-                    context.restoreGState()
-                    
-                    context.restoreGState()
-                }
+//                /// SELECT
+//                do {
+//                    context.saveGState()
+//                    context.translateBy(x: 0, y: 25)
+//                    
+//                    /// Select Location
+//                    let selectDestination2 = NSMutableAttributedString(string: "Select Location")
+//                    selectDestination2.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 20)!, range: NSRange(location: 0, length: selectDestination2.length))
+//                    selectDestination2.addAttribute(NSForegroundColorAttributeName, value: UIColor(white: 0.278, alpha: 1), range: NSRange(location: 0, length: selectDestination2.length))
+//                    selectDestination2.addAttribute(NSKernAttributeName, value: -0.44, range: NSRange(location: 0, length: selectDestination2.length))
+//                    context.saveGState()
+//                    context.setAlpha(0.8)
+//                    context.beginTransparencyLayer(auxiliaryInfo: nil)
+//                    do {
+//                        selectDestination2.draw(at: CGPoint.zero)
+//                    }
+//                    context.endTransparencyLayer()
+//                    context.restoreGState()
+//                    
+//                    context.restoreGState()
+//                }
                 
                 context.restoreGState()
             }
@@ -1532,7 +1532,7 @@ public class PlanATrip: NSObject {
             context.translateBy(x: 133, y: 18)
             
             /// Flight Search
-            let flightSearch = NSMutableAttributedString(string: "Flight Search")
+            let flightSearch = NSMutableAttributedString(string: "Plan a Trip")
             flightSearch.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 19)!, range: NSRange(location: 0, length: flightSearch.length))
             flightSearch.addAttribute(NSForegroundColorAttributeName, value: UIColor(hue: 1, saturation: 0.954, brightness: 0.988, alpha: 1), range: NSRange(location: 0, length: flightSearch.length))
             flightSearch.addAttribute(NSKernAttributeName, value: -0.13, range: NSRange(location: 0, length: flightSearch.length))
@@ -1574,7 +1574,7 @@ public class PlanATrip: NSObject {
         var image: UIImage
         
         UIGraphicsBeginImageContextWithOptions(CGSize(width: 375, height: 630), false, 0)
-        PlanATripViewController2.drawSearch1()
+        PlanATrip.drawSearch1()
         image = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
         

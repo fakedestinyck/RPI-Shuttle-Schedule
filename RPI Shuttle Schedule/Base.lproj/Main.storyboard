@@ -39,13 +39,20 @@
                     <view key="view" contentMode="scaleToFill" id="v4X-zU-LUw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmN-ke-viv">
+                                <rect key="frame" x="164" y="303" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Route" image="Route" selectedImage="RouteChosen" id="JxY-E9-ybD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SdC-S1-61v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="318" y="662"/>
+            <point key="canvasLocation" x="317.60000000000002" y="661.61919040479768"/>
         </scene>
         <!--Plan Trip-->
         <scene sceneID="9py-df-8Xg">

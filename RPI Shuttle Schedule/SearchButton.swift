@@ -43,7 +43,7 @@ class SearchButton: NSObject {
             /// Group 10
             do {
                 context.saveGState()
-                context.translateBy(x: 47, y: 287)
+                context.translateBy(x: 47, y: 280)
                 
                 /// Rectangle 2
                 let rectangle2 = UIBezierPath(roundedRect: CGRect(x: 0, y: 0, width: 250, height: 51), cornerRadius: 28)
@@ -60,19 +60,19 @@ class SearchButton: NSObject {
                     let baseOffset = context.convertToDeviceSpace(CGPoint(x: 263, y: 5)).applying(baseTransform)
                     let shadowOffset = CGSize(width: baseOffset.x - baseZero.x, height: baseOffset.y - baseZero.y)
                     let shadowBlur: CGFloat = 12 * min(baseOne.x - baseZero.x, baseOne.y - baseZero.y)
-                    context.setShadow(offset: shadowOffset, blur: shadowBlur, color: UIColor(hue: 0.943, saturation: 0.921, brightness: 0.949, alpha: 0.31).cgColor)
+                    context.setShadow(offset: shadowOffset, blur: shadowBlur, color: UIColor(hue: 1, saturation: 0.632, brightness: 0.992, alpha: 0.28).cgColor)
                 }
                 UIColor.black.setFill()
                 rectangle2.fill()
                 context.restoreGState()
-                UIColor(hue: 0.943, saturation: 0.922, brightness: 0.95, alpha: 1).setFill()
+                UIColor(hue: 1, saturation: 0.633, brightness: 0.993, alpha: 1).setFill()
                 rectangle2.fill()
                 context.restoreGState()
                 
                 /// Search
                 let search = NSMutableAttributedString(string: "Search")
                 search.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 25)!, range: NSRange(location: 0, length: search.length))
-                search.addAttribute(NSForegroundColorAttributeName, value: UIColor(hue: 0.506, saturation: 0.604, brightness: 0.994, alpha: 0.9), range: NSRange(location: 0, length: search.length))
+                search.addAttribute(NSForegroundColorAttributeName, value: UIColor.white, range: NSRange(location: 0, length: search.length))
                 search.addAttribute(NSKernAttributeName, value: -0.43, range: NSRange(location: 0, length: search.length))
                 context.saveGState()
                 search.draw(at: CGPoint(x: 88, y: 11))
