@@ -42,7 +42,7 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
         mainView.addGestureRecognizer(gstSearch)
         searchButtonUIView.isHidden = true
         produceOtherUI()
-        self.myPicker = UIPickerView(frame: CGRect(x: 0, y: 40, width: 0, height: 0))
+        self.myPicker = UIPickerView(frame: CGRect(x: 0, y: 15, width: 0, height: 0))
         self.myPicker.delegate = self
         self.myPicker.dataSource = self
     }
@@ -99,7 +99,9 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
         fromButton.setTitleColor(UIColor(white: 0.278, alpha: 1), for: UIControlState.highlighted)
         self.view.addSubview(fromButton)
         var stringSize = fromButton.titleRect(forContentRect: UIScreen.main.bounds)
-        fromButton.frame = CGRect(x: 27*staticScale+staticDeltaX, y: 108*staticScale+staticDeltaY+PlanATripViewController.statusBarHeight, width: stringSize.width, height: 24*staticScale)
+        let thisSize1 = fromButton.intrinsicContentSize
+        let deltaHeight1 = (thisSize1.height-24*staticScale)/2
+        fromButton.frame = CGRect(x: 27*staticScale+staticDeltaX, y: 108*staticScale+staticDeltaY+PlanATripViewController.statusBarHeight-deltaHeight1, width: stringSize.width, height: 24*staticScale)
         
         //departure location textfield
         fromTextField.frame = fromButton.frame
@@ -124,7 +126,9 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
         toButton.isEnabled = false
         toButton.setTitleColor(UIColor.lightGray, for: .disabled)
         stringSize = toButton.titleRect(forContentRect: UIScreen.main.bounds)
-        toButton.frame = CGRect(x: 27*staticScale+staticDeltaX, y: 190*staticScale+staticDeltaY+PlanATripViewController.statusBarHeight, width: stringSize.width, height: 24*staticScale)
+        let thisSize2 = toButton.intrinsicContentSize
+        let deltaHeight2 = (thisSize2.height-24*staticScale)/2
+        toButton.frame = CGRect(x: 27*staticScale+staticDeltaX, y: 190*staticScale+staticDeltaY+PlanATripViewController.statusBarHeight-deltaHeight2, width: stringSize.width, height: 24*staticScale)
 
         
         toButton.addTarget(self, action: #selector(button), for: UIControlEvents.touchUpInside)
@@ -132,13 +136,26 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
     }
     
     func donePicker(sender: AnyObject) {
-        let needTransY = nowEditing.title(for: .normal) == "Select Location" || nowEditing.title(for: .normal) == "Select Destination"
-        nowEditing.setTitle(tmpPickerChosen, for: .normal)
-        let thisSize = nowEditing.intrinsicContentSize
-        let deltaHeight = (thisSize.height-24*staticScale)/2
-        if needTransY {
-            nowEditing.frame = CGRect(x: 27*staticScale+staticDeltaX, y: nowEditing.frame.minY-deltaHeight, width: thisSize.width, height: 24*staticScale)
+        //let needTransY = nowEditing.title(for: .normal) == "Select Location" || nowEditing.title(for: .normal) == "Select Destination"
+        
+        // there's two situation (except haven't chosen yet):
+        if toButton.title(for: .normal) != "Select Destination" {
+            // if current "to destination" is WEST, should be changed to EAST(in other words, change to "Select Destination")
+            if westPicker.index(of: toButton.title(for: .normal)!) != nil {
+                toButton.setTitle("Select Destination", for: .normal)
+                toButton.sizeToFit()
+            }
         }
+        nowEditing.setTitle(tmpPickerChosen, for: .normal)
+//        let thisSize = nowEditing.intrinsicContentSize
+//        let deltaHeight = (thisSize.height-24*staticScale)/2
+//        if needTransY {
+//            nowEditing.frame = CGRect(x: 27*staticScale+staticDeltaX, y: nowEditing.frame.minY-deltaHeight, width: thisSize.width, height: 24*staticScale)
+//        } else {
+//            nowEditing.frame = CGRect(x: 27*staticScale+staticDeltaX, y: nowEditing.frame.minY, width: thisSize.width, height: 24*staticScale)
+//        }
+        //nowEditing.frame = CGRect(x: 27*staticScale+staticDeltaX, y: nowEditing.frame.minY, width: nowEditing.frame.size.width, height: 24*staticScale)
+        nowEditing.sizeToFit()
         
         
         nowEditing.setTitleColor(UIColor(hue: 0.714, saturation: 0.515, brightness: 0.945, alpha: 1), for: .normal)
@@ -146,6 +163,8 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
         if nowEditing.title(for: .reserved) == "fromButton" {
             toButton.isEnabled = true
         }
+        
+        
         self.fromTextField.resignFirstResponder() // To resign the inputView on clicking done.
     }
     
@@ -155,6 +174,15 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
     }
     
     func button(sender: UIButton) {
+        self.fromTextField.resignFirstResponder()
+//        nowEditing = sender
+//        let needTransY = nowEditing.title(for: .normal) == "Select Location" || nowEditing.title(for: .normal) == "Select Destination"
+//        //nowEditing.setTitle(tmpPickerChosen, for: .normal)
+//        let thisSize = nowEditing.intrinsicContentSize
+//        let deltaHeight = (thisSize.height-24*staticScale)/2
+//        if needTransY {
+//            nowEditing.frame = CGRect(x: 27*staticScale+staticDeltaX, y: nowEditing.frame.minY-deltaHeight, width: thisSize.width, height: 24*staticScale)
+//        }
         nowEditing = sender
         if nowEditing.title(for: .reserved) == "fromButton" {
             picker_locations = ["Union"] + eastPicker+westPicker
@@ -162,7 +190,7 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
             if fromButton.title(for: .normal) == "Union" {
                 picker_locations = eastPicker+westPicker
             } else if eastPicker.index(of: fromButton.title(for: .normal)!) != nil {
-                //if route is east
+                //if route is ***EAST***
                 picker_locations = eastPicker + ["Union"]
             } else {
                 picker_locations = westPicker + ["Union"]
@@ -178,18 +206,18 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
     func textField(sender: UITextField) {
         //Create the view
         let tintColor: UIColor = UIColor(red: 101.0/255.0, green: 98.0/255.0, blue: 164.0/255.0, alpha: 1.0)
-        let inputView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 240))
+        let inputView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 200))
         myPicker.tintColor = tintColor
         myPicker.center.x = inputView.center.x
         inputView.addSubview(myPicker) // add date picker to UIView
-        let doneButton = UIButton(frame: CGRect(x: 100/2, y: 0, width: 100, height: 50))
+        let doneButton = UIButton(frame: CGRect(x: (self.view.frame.size.width - 110), y: 0, width: 100, height: 35))
         doneButton.setTitle("Done", for: UIControlState.normal)
         doneButton.setTitle("Done", for: UIControlState.highlighted)
         doneButton.setTitleColor(tintColor, for: UIControlState.normal)
         doneButton.setTitleColor(tintColor, for: UIControlState.highlighted)
         inputView.addSubview(doneButton) // add Button to UIView
         doneButton.addTarget(self, action: #selector(donePicker), for: UIControlEvents.touchUpInside) // set button click event
-        let cancelButton = UIButton(frame: CGRect(x: (self.view.frame.size.width - 3*(100/2)), y: 0, width:100, height: 50))
+        let cancelButton = UIButton(frame: CGRect(x: 10, y: 0, width:100, height: 35))
         cancelButton.setTitle("Cancel", for: UIControlState.normal)
         cancelButton.setTitle("Cancel", for: UIControlState.highlighted)
         cancelButton.setTitleColor(tintColor, for: UIControlState.normal)
