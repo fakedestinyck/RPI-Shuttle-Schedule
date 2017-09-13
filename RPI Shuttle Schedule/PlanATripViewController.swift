@@ -64,6 +64,7 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
     //MARK: Delegates
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        print(row)
         return picker_locations[row]
     }
     
@@ -137,16 +138,27 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
     
     func donePicker(sender: AnyObject) {
         //let needTransY = nowEditing.title(for: .normal) == "Select Location" || nowEditing.title(for: .normal) == "Select Destination"
-        
-        // there's two situation (except haven't chosen yet):
+        nowEditing.setTitle(tmpPickerChosen, for: .normal)
+        // there's a few situations (except haven't chosen yet):
         if toButton.title(for: .normal) != "Select Destination" {
-            // if current "to destination" is WEST, should be changed to EAST(in other words, change to "Select Destination")
-            if westPicker.index(of: toButton.title(for: .normal)!) != nil {
+            if fromButton.title(for: .normal) == "Union" && toButton.title(for: .normal) == "Union" {
                 toButton.setTitle("Select Destination", for: .normal)
                 toButton.sizeToFit()
+            } else if westPicker.index(of: toButton.title(for: .normal)!) != nil {
+                // if current "from location" is east and "to destination" is WEST, should be changed to EAST(in other words, change to "Select Destination") and vise versa
+                if eastPicker.index(of: fromButton.title(for: .normal)!) != nil {
+                    toButton.setTitle("Select Destination", for: .normal)
+                    toButton.sizeToFit()
+                }
+                
+            } else if eastPicker.index(of: toButton.title(for: .normal)!) != nil {
+                if westPicker.index(of: fromButton.title(for: .normal)!) != nil {
+                    toButton.setTitle("Select Destination", for: .normal)
+                    toButton.sizeToFit()
+                }
+                
             }
         }
-        nowEditing.setTitle(tmpPickerChosen, for: .normal)
 //        let thisSize = nowEditing.intrinsicContentSize
 //        let deltaHeight = (thisSize.height-24*staticScale)/2
 //        if needTransY {
@@ -186,6 +198,7 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
         nowEditing = sender
         if nowEditing.title(for: .reserved) == "fromButton" {
             picker_locations = ["Union"] + eastPicker+westPicker
+            myPicker.reloadAllComponents()
         } else if nowEditing.title(for: .reserved) == "toButton" {
             if fromButton.title(for: .normal) == "Union" {
                 picker_locations = eastPicker+westPicker
@@ -196,6 +209,11 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
                 picker_locations = westPicker + ["Union"]
             }
         }
+        
+        // ****** IMPORTANT **********
+        myPicker.reloadAllComponents()
+        // ***************************
+        
         if nowEditing.title(for: .normal) == "Select Location" || nowEditing.title(for: .normal) == "Select Destination" {
             tmpPickerChosen = picker_locations[0]
         }
@@ -225,6 +243,7 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
         inputView.addSubview(cancelButton) // add Button to UIView
         cancelButton.addTarget(self, action: #selector(cancelPicker), for: UIControlEvents.touchUpInside) // set button click event
         sender.inputView = inputView
+        
         
         if nowEditing.title(for: .normal) != "Select Location" && nowEditing.title(for: .normal) != "Select Destination" {
             let position = picker_locations.index(of: nowEditing.title(for: .normal)!)
