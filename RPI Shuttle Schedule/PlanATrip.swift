@@ -1323,7 +1323,7 @@ public class PlanATrip: NSObject {
                 
                 /// Search
                 let search = NSMutableAttributedString(string: "Search")
-                search.addAttribute(NSFontAttributeName, value: UIFont(name: ".AppleSystemUIFont", size: 25)!, range: NSRange(location: 0, length: search.length))
+                search.addAttribute(NSFontAttributeName, value: UIFont(name: "Linotte-SemiBold", size: 25)!, range: NSRange(location: 0, length: search.length))
                 search.addAttribute(NSForegroundColorAttributeName, value: UIColor.white, range: NSRange(location: 0, length: search.length))
                 search.addAttribute(NSKernAttributeName, value: -0.43, range: NSRange(location: 0, length: search.length))
                 context.saveGState()

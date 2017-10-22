@@ -96,7 +96,7 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
         fromButton.contentHorizontalAlignment = .left
         fromButton.contentVerticalAlignment = .top
         fromButton.setTitleColor(UIColor(hue: 1, saturation: 0.632, brightness: 0.992, alpha: 1), for: .normal)
-        fromButton.titleLabel?.font = UIFont(name: ".AppleSystemUIFont", size: 20*PlanATripViewController.staticScale)
+        fromButton.titleLabel?.font = UIFont(name: "Linotte-SemiBold", size: 20*PlanATripViewController.staticScale)
         fromButton.setTitleColor(UIColor(white: 0.278, alpha: 1), for: UIControlState.highlighted)
         self.view.addSubview(fromButton)
         var stringSize = fromButton.titleRect(forContentRect: UIScreen.main.bounds)
@@ -121,7 +121,7 @@ class PlanATripViewController: UIViewController, UITextFieldDelegate, UIPickerVi
         toButton.contentHorizontalAlignment = .left
         toButton.contentVerticalAlignment = .top
         toButton.setTitleColor(UIColor(hue: 1, saturation: 0.632, brightness: 0.992, alpha: 1), for: .normal)
-        toButton.titleLabel?.font = UIFont(name: ".AppleSystemUIFont", size: 20*PlanATripViewController.staticScale)
+        toButton.titleLabel?.font = UIFont(name: "Linotte-SemiBold", size: 20*PlanATripViewController.staticScale)
         toButton.setTitleColor(UIColor(white: 0.278, alpha: 1), for: UIControlState.highlighted)
         self.view.addSubview(toButton)
         toButton.isEnabled = false

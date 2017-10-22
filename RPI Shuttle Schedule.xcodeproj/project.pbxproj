@@ -16,6 +16,7 @@
 		6369DCCF1F609A9B009F712B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6369DCCD1F609A9B009F712B /* Main.storyboard */; };
 		6369DCD11F609A9B009F712B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6369DCD01F609A9B009F712B /* Assets.xcassets */; };
 		6369DCE21F610EB3009F712B /* east_weekdays.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6369DCE11F610EB3009F712B /* east_weekdays.plist */; };
+		639A80171F6B3AB7006DEE54 /* Linotte-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 639A80161F6B3AB7006DEE54 /* Linotte-SemiBold.otf */; };
 		63C12C441F62E6D7009A71E8 /* PlanATripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C12C431F62E6D7009A71E8 /* PlanATripView.swift */; };
 		63C12C461F62E790009A71E8 /* PlanATripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C12C451F62E790009A71E8 /* PlanATripViewController.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		6369DCD01F609A9B009F712B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6369DCD51F609A9B009F712B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6369DCE11F610EB3009F712B /* east_weekdays.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = east_weekdays.plist; path = "RPI Shuttle Schedule/res/east_weekdays.plist"; sourceTree = "<group>"; };
+		639A80161F6B3AB7006DEE54 /* Linotte-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Linotte-SemiBold.otf"; sourceTree = "<group>"; };
 		63C12C431F62E6D7009A71E8 /* PlanATripView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanATripView.swift; sourceTree = "<group>"; };
 		63C12C451F62E790009A71E8 /* PlanATripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanATripViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +73,7 @@
 				6329FDAC1F64701B0068F3EB /* TopMostVC.swift */,
 				6329FDA51F64545F0068F3EB /* SearchButton.swift */,
 				6329FDA71F64547F0068F3EB /* SearchButtonView.swift */,
+				639A80161F6B3AB7006DEE54 /* Linotte-SemiBold.otf */,
 				63C12C431F62E6D7009A71E8 /* PlanATripView.swift */,
 				63C12C451F62E790009A71E8 /* PlanATripViewController.swift */,
 				6329FDA91F6455810068F3EB /* PlanATrip.swift */,
@@ -143,6 +146,7 @@
 			files = (
 				6369DCD11F609A9B009F712B /* Assets.xcassets in Resources */,
 				6369DCE21F610EB3009F712B /* east_weekdays.plist in Resources */,
+				639A80171F6B3AB7006DEE54 /* Linotte-SemiBold.otf in Resources */,
 				6369DCCF1F609A9B009F712B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
